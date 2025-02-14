@@ -19,7 +19,7 @@ nu_1 = input ('digite um numero: ')
 nu_2 = input('digite outro numero: ')
 
 print(f'a soma dos dois numero é {nu_1+nu_2}')
-# os numeros coletados serão concatenas ao em vez de somados por serem str.
+# os numeros coletados serão concatenados ao em vez de somados por serem str.
 
 '''
 ATENÇÃO!!!!
