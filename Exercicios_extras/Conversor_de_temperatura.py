@@ -7,11 +7,18 @@ Formula
 Fahrenhit = (Celsius * 9/5) + 32
 '''
 
+alfabeto = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+simbolos = "'´`~^{[}]?/°,.:;|!@#$%¨&*()_+=§'" 
+
 print('Conversor de C° para F°')
 
 
-celsius = float(input('Qual a temperatura em C° ? '))
-fahrenhit = (celsius * 9/5) + 32
+celsius =input('Qual a temperatura em C° ? ')
 
+if (celsius not in alfabeto) and (celsius not in simbolos):
+    #celsius =(float(celsius))
+    fahrenhit = ((float(celsius)) * 9/5) + 32
 
-print(f'{celsius} C° para Fahrenhit é {fahrenhit} F°')
+    print(f'{celsius} C° para Fahrenhit é {fahrenhit} F°')
+else:
+    print('vc nao digitou um número válido!')
