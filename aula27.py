@@ -34,6 +34,7 @@ print(variavel[4:9]) # i:f
 print(variavel[4:]) # i:f com o fim omitido q significa q serão todos os caracteres apos o 4
 # ::p
 print(variavel[::1]) # o primeiro caracter a cada 1 passos ([O][l][á][][m][u][n][d][o] => 'Olá mundo')
+print(variavel[::-1]) # ao usr numeros invertidos, ele contara de traz para frente
 print(variavel[::2]) # o primeiro caracter a cada 2 passos ( [Ol][á ][mu][nd]o => 'oámno')
 print(variavel[::3]) # o primeiro caracter a cada 3 passos ( [Olá][ mu][ndo] => 'o n')
 print(variavel[::4]) # o primeiro caracter a cada 3 passos ( [Olá ][mund]o => 'Omo')
