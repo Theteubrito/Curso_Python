@@ -37,6 +37,11 @@ R_RANGE = 1 # a distancia de leitura q o radar alcansa (tanto a sua frente, q ua
 |ESTRADA            | 90  |                       |R||100||R|            ESTRADA|
 '''
 
+
+
+
+# Variaveis, Constantes e complexidade de codigo part. 2
+
 if c_localizacao >= (R_LOCALIZACAO - R_RANGE) and c_localizacao <= (R_LOCALIZACAO + R_RANGE):
     print('O carro foi visto pelo radar')
     if c_velocidade > R_VEL_PERMITIDA:
