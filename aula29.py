@@ -8,18 +8,49 @@
     essa exceção.  (Explicação tirado do copiloto)
     Em resumo, uma exceção é um erro de coódigo.
 
-2 -
-Try --- Tentar execultar
+2 - Try / except é muito parecidos com o if / else. Mas, enquanto o if / else crial um fluxo de codigo 
+condicionado. o Try / except evita do codigo ser quebrado.
+
+   Try --- Tentar execultar
 except --- Ocorreu algum erro ao tentar executar
 
 Ex:
 '''
 
-#  1  O codigo abaixo vai gerar uma exceção (str nao podem ser convertidas para int)
-#str = 'a'
-#print(f'O numero é: {int(str)}')
+# 1  O codigo abaixo vai gerar uma exceção
 
+# int('a') #(str nao podem ser convertidas para int)
+
+#a exceção gerada foi ¬
+#Traceback (most recent call last):
+#  File "c:\Users\mathe\OneDrive\Documentos\GitHub\Curso_Python\aula29.py", line 20, in <module>
+#    int('a') #(str nao podem ser convertidas para int)
+#    ~~~^^^^^
+#ValueError: invalid literal for int() with base 10: 'a'
+
+# 2
+try:
+    print ('    entrou no try')
+    int ('a')
+
+except:
+    print('    entrou no except')
+    print('Não é possivel converter letra para digito')
 '''
-a exceção gerada foi
-ValueError: invalid literal for int() with base 10: 'a'
+Em ves do codigo explodir uma exceção (quebrar, da erro). O codigo pulou para o except (igual quando 
+uma condição do if nao é atendida e pula para o else).
+'''
+'''
+ATENÇÃO!!!
+Nesse trecho do codigo:
+try:
+    print ('    entrou no try')
+    int ('a')
+
+Em uma situação real, é mais prudente por a condição q pode gerar a exceção em primeiro. No nome 
+desse conceito é "Fast fail". isso permite o codigo ser mais rapido e poupa tempo.
+sendo assim:
+try:
+    int ('a')
+    print ('    entrou no try')
 '''
