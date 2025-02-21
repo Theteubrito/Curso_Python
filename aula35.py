@@ -1,4 +1,4 @@
-# repetição part1
+# repetição part2
 '''
 1- while -- Enquanto
     Execulta uma ação enquato a condição for verdadeira.
@@ -6,9 +6,9 @@
 Ex:
 '''
 
-# a posição de uma variavel pode alterar o resultado 
-contador = 0
+# a posição de uma variavel pode alterar o resultado
 
+contador = 0
 #1
 # vai contar de 0 até 9
 #while contador < 10:
