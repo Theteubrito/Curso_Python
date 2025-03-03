@@ -1,22 +1,22 @@
-# bool
+# tipo bool - Introdução aos topos de dados
 '''
-bool -> boolean (boleano)
-representa dois valores lógicos.
-Ao questionar algo em um programa, só existem duas resposta possíveis:
--True -> Verdadeiro/sim
-ou
--False - Falso/não
+1- bool -> boolean (boleano)
+    - representa dois valores lógicos.
+    - Ao questionar algo em um programa, só existem duas resposta possíveis:
+        -True -> Verdadeiro/sim
+        ou
+        -False - Falso/não
 
-Existem varios operadores para questionar. Dentre eles o == que é
-o operador logico que questiona se um valor é igual a outro.
+2- == (igual)
+    - Existem varios operadores para questionar. Dentre eles o == que é o operador logico que questiona 
+    se um valor é igual a outro.
 
 Ex:
 '''
-# o tipo
+# 1
 print(  type(10==10)  )
 
-# questionamentos
-
+# 2
 print(10==10) # 10 é igual a 10?
 print ('m'=='m') # a letra m é igual a letra m?
 

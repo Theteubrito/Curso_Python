@@ -1,12 +1,17 @@
+# Coeção de tipos (Convertendo um tipo para outro)
 '''
-Converção de tipos
-tambem chamados:
-coerção, type convertion, typecasting e coercion.
+1- Converção de tipos
+    É o ato de converter um tipo em outros tipos imutaveis e primitivos. Tambem chamado:
+        - coerção
+        - type convertion
+        - typecasting
+        - coercion.
 
-É o ato de converter um tipo em outros tipos imutaveis e primitivos.
-
-type imutaveis e primitivos:
-str, int, float e bool.
+2- type imutaveis e primitivos:
+        - str
+        - int
+        - float
+        - bool.
 
 Ex:
 '''
@@ -25,6 +30,6 @@ Juntando assim, os dois argumentos.
 '''
 
 print(   bool('')   ) # ¬
-# a str vasia esta sendo convertido para bool q, por padrao é False (o padrao sempre será False)
+# a str vasia está sendo convertido para bool q, por padrao é False (o padrao sempre será False)
 # mas se for adicionado algo, como por exenplo um espaço, tornasse True
 print(   bool(' ')   )

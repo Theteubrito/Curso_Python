@@ -1,6 +1,6 @@
+# exercício: Variáveis e tipos de dados para treino
 '''
-exercício:
-Crie as vareaveis exigidas pelo codigo abaixo com seus respectivos valores.
+Crie as variaveis exigidas pelo codigo abaixo com seus respectivos valores.
 
 print('nome: ', nome)
 print('Sobrenome: ', sobrenome)

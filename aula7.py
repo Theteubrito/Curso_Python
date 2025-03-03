@@ -1,25 +1,29 @@
+# Introdução às variaveis em Python
 '''
-Variaveis
-São usadas para salvar algo na memoria do computadoes.
+1- Variaveis
+    - São espaços de memoria usadas para salvar algo nos computadoes.
 
-Regras da PEP8:
-inicie variaveis com letras minuculas.
-pode usar numeros e underline(escrita_em_snake_case).
+2- = (atriduição)
+    - O operador "=" é o operador de atribuição. Logo, é usado para atribuir um valor a 
+    um nome (variavel).
 
-O operador de = é o operador de atribuição.
-Logo, é usado para atribuir um valor a um nome (variavel).
+
+3- Regras da PEP8:
+    - inicie variaveis com letras minuculas
+    - pode usar numeros e underline(escrita_em_snake_case).
+
+4 - lIvro codigo limpo
+    - De acordo com o livro "Codigo limpo" é importante q o nome da variavel descreva exatamente o 
+    valor q ela carrega.
 
 Ex:
 '''
 nome_completo = 'Matheus Siqueira Vieira Brito'
-um_mai_um = 1+1
+um_mais_um = 1+1
 
 print(nome_completo)
-print(um_mai_um)
-'''
-De acordo com o livro "Codigo limpo" é importante q o nome da variavel descreva 
-exatamente o valor q ela carrega.
-'''
+print(um_mais_um)
+
 
 # outro exemplo:
 nome = 'matheus'
