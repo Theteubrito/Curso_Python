@@ -1,4 +1,4 @@
-# concatenação e repetição com operadores aritméticos
+# Concatenação e repetição com operadores aritméticos
 
 # concatenação
 nome_compl = 'matheus' + ' '+ 'brito'

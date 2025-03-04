@@ -1,6 +1,6 @@
-# operações matemáticas
+# Introdução ao operadores aritmeticos
 
-adicao = 10 +10
+adicao = 10 + 10
 print('Adição:', adicao)
 
 subtracao = 10 - 5
@@ -24,7 +24,7 @@ print('Modulo: ', modulo)
 
 # Exemplos de uso para o modulo
 
-
+# 1
 # saber se um numero é multiplo de outro ¬
 
 dez_oito = 10 % 8 == 0 # o resto da divisão de 10 por 8 é igual a zero?
@@ -34,7 +34,7 @@ deseseis_oito = 16 % 8 == 0 # o resto da divisão de 16 por 8 é igual a zero?
 print('16 é multipo de 8?:', deseseis_oito)
 
 
-
+# 2
 # saber se um numero é impar ou par ¬
 
 impar = 5 % 2 == 0  # o resta da divisão de 5 para 2 é igual a zero?

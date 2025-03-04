@@ -1,15 +1,16 @@
-# Exercício
+# Exercício de programação: Calculo de IMC + elipsis
 '''
-nome =''
-altura = ...
-peso = ...
-imc =...
+- Dados
+    - nome =''
+    - altura = ...
+    - peso = ...
+    - imc =...
 
-saida ¬
-nome
-altura
-peso
-o seu imc é: ...
+- saida
+    - nome
+    - altura
+    - peso
+    - o seu imc é: ... (o nome desses 3 pontos é Elipsis, serve para reservar um espaço. è o mesmo do pass)
 '''
 
 # r ¬

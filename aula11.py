@@ -1,4 +1,4 @@
-# antecedencia dos operadores
+# Precedência entre os operadores
 
 '''
 1 - (x+x)
