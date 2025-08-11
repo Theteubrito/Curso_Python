@@ -8,7 +8,7 @@
     O sep por padrao é: sep=' '(espaço).
 
 3- end=''
-    - É um argumento NOMEADO utiçizado para mudar o final do print. O padão sendo uma quebra de linha q tem 
+    - É um argumento NOMEADO utizado para mudar o final do print. O padão é uma quebra de linha, q tem 
     seus caracteres diferentes dependendo do sistema.
 
 4- Quebra de linha
